@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
-void solve(int target,int n){
-    priority_queue<long long,vector<long long>,greater<long long>> pq;
+void solve(long long target,int n){
+        priority_queue<long long,vector<long long>,greater<long long>> pq;
         long long res;
         while(n--){
             cin>>res;
