@@ -31,8 +31,8 @@ int main(int argc, char const *argv[])
     #endif
     int T;cin>>T;
     string s,p;
-    while(T--&&cin>>s>>p){
         n=s.size();
+    while(T--&&cin>>s>>p){
         memset(nxt,0x3f,sizeof nxt);
         for(int i=n-1;~i;--i){
             for(int j=0;j<26;j++)
